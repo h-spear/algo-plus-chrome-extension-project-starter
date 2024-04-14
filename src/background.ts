@@ -1,6 +1,6 @@
-function polling() {
-  // console.log("polling");
-  setTimeout(polling, 1000 * 30);
-}
+const polling = (): void => {
+    console.log('polling');
+    setTimeout(polling, 1000);
+};
 
 polling();

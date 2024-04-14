@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
 
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
-  "version": "1.0",
+  "name": "Algo Plus",
+  "description": "백준, SWEA를 실제 코딩테스트처럼 풀 수 있는 환경을 제공하고, 오답 노트 기능 등 학습에 유용한 기능을 제공하는 크롬 확장 프로그램",
+  "version": "1.0.0",
 
   "options_ui": {
     "page": "options.html"
@@ -16,8 +16,8 @@
 
   "content_scripts": [
       {
-          "matches": ["<all_urls>"],
-          "js": ["js/vendor.js", "js/content_script.js"]
+          "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
+          "js": ["js/vendor.js", "js/main.js"]
       }
   ],
 
