@@ -1,4 +1,4 @@
-# Algo Plus Projdct Starter
+# Algo Plus Project Starter
 
 Chrome Extension, React, TypeScript and Visual Studio Code
 
