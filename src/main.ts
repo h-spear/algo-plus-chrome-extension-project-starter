@@ -1,4 +1,4 @@
-import customProblemPage from './content_scripts/problem';
+import customProblemPage from '@/scripts/baekjoon/problem';
 
 const url: string = window.location.pathname;
 
